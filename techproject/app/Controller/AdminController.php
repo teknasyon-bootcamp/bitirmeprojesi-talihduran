@@ -115,7 +115,6 @@ class AdminController extends AbstractController{
        $created_at = date("d/m/Y h:i:s");
        $updated_at = date("d/m/Y h:i:s");
        session_start();
-       var_dump($_SESSION['userId']);
        NewsPostModel::createNewsPost(
            $_SESSION['userId'], $title, $content, $created_at, $updated_at,
            $images,$breaking_news,$active,
