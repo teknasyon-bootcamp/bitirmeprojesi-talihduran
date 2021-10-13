@@ -18,4 +18,6 @@ http://teknasyon.project/rest/news/id -> "*" (PUT)
 http://teknasyon.project/rest/news/id -> "*" (DELETE)
 
 ## Proje Durumu
-Login sistemi başarıyla çalışıyor, haber ekleme güncelleme admin sistemi çalışıyor fakat bazı buglar yer almaktadır. Maalesef süreden dolayı düzeltilememiştir. Bazı özellikler geliştirilmeyi beklerken projede oldukça güvenlik açıkları bulunmaktadır.
+Login sistemi çalışıyor, haber ekleme güncelleme admin sistemi çalışıyor fakat bazı buglar yer almaktadır. Maalesef süreden dolayı düzeltilememiştir. Bazı özellikler geliştirilmeyi beklerken projede oldukça güvenlik açıkları bulunmaktadır.
+
+
