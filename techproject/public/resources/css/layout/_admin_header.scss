@@ -1,0 +1,38 @@
+.admin-header-wrapper{
+  width: 100%;
+  background-color: #1e2125;
+  height: 55px;
+  .admin-header{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    .admin-txt{
+      margin-left: 15px;
+      span{
+        font-size: 24px;
+        line-height: 55px;
+        color: white;
+      }
+    }
+    .admin-search{
+      position: relative;
+      input{
+        width:400px;
+        display: inline;
+        outline: none;
+      }
+      .btn-search{
+        position: absolute;
+        right: 0;
+        outline: none;
+        span{
+          color: #1e2125;
+        }
+      }
+    }
+    .admin-logout{
+      margin-right: 15px;
+    }
+  }
+}

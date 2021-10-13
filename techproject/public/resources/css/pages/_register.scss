@@ -1,0 +1,53 @@
+.register-wrapper{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E7E9EB;
+  .register{
+    .register-item{
+        display: flex;
+        margin-top: 0.75rem;
+        width: 100%;
+      .register-input-icon{
+        background-color: white;
+        border: 1px solid #ced4da;
+        border-radius: 5px 0 0 5px;
+        height: 42px;
+        width: 42px;
+        span{
+          width: 42px;
+          font-size: 28px;
+          text-align: center;
+          line-height: 42px;
+        }
+      }
+      .register-input{
+        width: 100%;
+        height: 42px;
+        border-top-left-radius:0;
+        border-bottom-left-radius:0;
+        input{
+          border-left: none;
+          height: 100%;
+          border-top-left-radius:0;
+          border-bottom-left-radius:0;
+          &:focus{
+            border: 1px solid #ced4da;
+            border-left: none;
+            outline: none;
+            appearance: none;
+            box-shadow: none;
+          }
+        }
+      }
+
+    }
+    .register-btn{
+      button{
+        width: 100%;
+      }
+    }
+  }
+}

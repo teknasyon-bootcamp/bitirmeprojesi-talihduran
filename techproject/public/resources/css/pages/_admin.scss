@@ -1,0 +1,9 @@
+.admin-wrapper{
+  width: 100%;
+  height: calc(100vh - 55px);
+  overflow-y: scroll;
+  .post-add{
+    display: flex;
+    margin-left: 15px;
+  }
+}

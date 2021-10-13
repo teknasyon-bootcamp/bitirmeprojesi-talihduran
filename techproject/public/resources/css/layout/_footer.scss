@@ -1,0 +1,27 @@
+.footer-wrapper{
+  .logo-text{
+    font-size:32px;
+    font-weight: bold;
+    color: #36a4ff;
+  }
+  .social-links-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+      width: 40px;
+      height: 40px;
+      margin: 5px;
+    }
+  }
+  .social-links-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+      width: 200px;
+      height: 120px;
+    }
+
+  }
+}

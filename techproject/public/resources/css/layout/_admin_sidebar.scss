@@ -1,0 +1,39 @@
+.sidebar-wrapper{
+  background-color: #E7E9EB;
+  width: 200px;
+  height: calc(100vh - 55px);
+  .sidebar-menu{
+    padding-top: 1rem;
+    a{
+      color: #1e2125;
+      text-decoration: none;
+
+    }
+  }
+  .sidebar-menu-item{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 40px;
+    &:hover{
+      background-color: #adb5bd;
+      cursor: pointer;
+      transition: ease 0.25s;
+    }
+
+    .sidebar-writing{
+      span{
+        font-size: 18px;
+      }
+    }
+    .sidebar-icon{
+      margin-left: 15px;
+      margin-right:10px;
+      margin-top: 5px;
+      span{
+        font-size: 32px;
+      }
+
+    }
+  }
+}
